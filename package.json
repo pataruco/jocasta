@@ -7,6 +7,9 @@
   "engines": {
    "node": "6.2.2"
   },
+ "scripts": {
+  "start": "HUBOT_SLACK_TOKEN=xoxb-52272428404-5DcFN08tC8ZdKNpnZOT26n3S ./bin/hubot --adapter slack"
+  },
   "dependencies": {
     "hubot": "^2.19.0",
     "hubot-diagnostics": "0.0.1",

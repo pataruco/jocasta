@@ -22,6 +22,6 @@ const quotes = ["Agree with you, the council does. Your apprentice, Skywalker wi
 
 module.exports = (robot) => {
   return robot.hear(/.*(yoda quote).*/i, (msg) => {
-    return msg.send(msg.random(quotes}));
+    return msg.send(msg.random(quotes));
   });
 };

@@ -1,4 +1,4 @@
-#  :older_woman: Jocasta 
+# Jocasta 
 
 ## What is it?
 Jocasta a chat bot built on the [Hubot][hubot] framework . It was
@@ -14,7 +14,7 @@ I built it as prototype for General Assembly London JavaScript 1 course first pr
 
 Clone this repo
 
-`git clone git@github.com:pataruco/hubot-sandbox.git`
+`git clone git@github.com:pataruco/jocasta.git`
 
 Go to `hubot-sandbox` directory in your machine
 

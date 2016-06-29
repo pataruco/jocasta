@@ -38,7 +38,7 @@ You'll see some start up output and a prompt:
     [Sat Feb 28 2015 12:38:27 GMT+0000 (GMT)] INFO Using default redis on localhost:6379
     Jocasta>
 
-Then you can interact with Jocasta by typing `Jocasta help`.
+Then you can interact with Jocasta.
 
     jocasta> weather [city]
     jocasta> yoda quotes
@@ -49,14 +49,14 @@ Then you can interact with Jocasta by typing `Jocasta help`.
 
 ## Running Jocasta on production
 
-You can start Jocasta on *ga-ldn-js1* Slack Channel by running:
+You can start Jocasta on [ga-ldn-js1](https://ga-ldn-js1.slack.com/) Slack Channel by running:
 
 `npm start`
 
 ## Jocasta scripts
 
   [Jocasta Nu](http://www.starwars.com/databank/jocasta-nu), is the head librarian of the Jedi Temple, so for she knows 
-  about the Galaxy and Star Wars characters
+  about the Galaxy and Star Wars characters.
 
  ### Admiral Ackbar
  Admiral Ackbar knew about the trap set it by the evil Galactic Empire
@@ -81,6 +81,3 @@ Bring a random Master Yoda Pic
 Bring a random Master Yoda quote
 
 `yoda quote`
-
-
-  

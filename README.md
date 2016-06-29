@@ -59,7 +59,7 @@ You can start Jocasta on [ga-ldn-js1](https://ga-ldn-js1.slack.com/) Slack Chann
   about the Galaxy and Star Wars characters.
 
  ### Admiral Ackbar
- Admiral Ackbar knew about the trap set it by the evil Galactic Empire
+Admiral Ackbar knew about the trap set it by the evil Galactic Empire
 
    `it's a trap`
 ### Weather

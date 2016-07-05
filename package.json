@@ -11,6 +11,7 @@
     "start": "HUBOT_SLACK_TOKEN=xoxb-52272428404-nWZw63vbWQQhCqvxAgu7Hp3h ./bin/hubot --adapter slack"
   },
   "dependencies": {
+    "caniuse-api": "^1.5.0",
     "hubot": "^2.19.0",
     "hubot-diagnostics": "0.0.1",
     "hubot-help": "^0.2.0",

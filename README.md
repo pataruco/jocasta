@@ -16,9 +16,9 @@ Clone this repo
 
 `git clone git@github.com:pataruco/jocasta.git`
 
-Go to `hubot-sandbox` directory in your machine
+Go to `jocasta` directory in your machine
 
-`hubot-sandbox`
+`jocasta`
 
 Then install dependencies
 

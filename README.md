@@ -28,7 +28,7 @@ Then install dependencies
 
 You can start Jocasta locally by running:
 
-    `% bin/hubot`
+    % bin/hubot
 
 You'll see some start up output and a prompt:
 

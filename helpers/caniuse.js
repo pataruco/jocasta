@@ -1,5 +1,4 @@
 class Caniuse {
-
   constructor(data) {
     this.data = data;
   }
@@ -11,8 +10,8 @@ class Caniuse {
       if (this.data.hasOwnProperty(browserKey)) {
         for (var support in this.data[browserKey]) {
           if (this.data[browserKey].hasOwnProperty(support)) {
-            if (support === 'y' ){
-              let supportBrowserObject = {}
+            if (support === 'y') {
+              let supportBrowserObject = {};
               supportBrowserObject[browserKey] = this.data[browserKey][support];
               supportedBrowsers.push(supportBrowserObject);
             }
@@ -25,9 +24,9 @@ class Caniuse {
 
   browserSupport(browserName, browserKey) {
     let prettyMessage = '';
-    this.supportedBrowsers().forEach(function(browser){
+    this.supportedBrowsers().forEach(function (browser) {
       if (browser.hasOwnProperty(browserKey)) {
-        prettyMessage =  `${browserName} > ${browser[browserKey]} :white_check_mark:`;
+        prettyMessage = `${browserName} > ${browser[browserKey]} :white_check_mark:`;
       }
     });
     return prettyMessage;
@@ -41,7 +40,7 @@ class Caniuse {
     return this.browserSupport('Edge', 'edge');
   }
 
-  chromeAndroid(){
+  chromeAndroid() {
     return this.browserSupport('Chrome Android', 'and_chr');
   }
 
@@ -53,15 +52,15 @@ class Caniuse {
     return this.browserSupport('Opera', 'opera');
   }
 
-  safariIos(){
+  safariIos() {
     return this.browserSupport('Safari iOS', 'ios_saf');
   }
 
-  firefox(){
+  firefox() {
     return this.browserSupport('Firefox', 'firefox');
   }
 
-  chrome(){
+  chrome() {
     return this.browserSupport('Chrome', 'chrome');
   }
 } // end of class

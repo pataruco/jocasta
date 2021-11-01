@@ -6,9 +6,9 @@ class Caniuse {
   supportedBrowsers() {
     let supportedBrowsers = [];
 
-    for (var browserKey in this.data) {
+    for (let browserKey in this.data) {
       if (this.data.hasOwnProperty(browserKey)) {
-        for (var support in this.data[browserKey]) {
+        for (let support in this.data[browserKey]) {
           if (this.data[browserKey].hasOwnProperty(support)) {
             if (support === 'y') {
               let supportBrowserObject = {};

@@ -1,3 +1,15 @@
+// Description:
+//
+//
+// Dependencies:
+//   None
+//
+// Configuration:
+//   None
+//
+// Commands:
+//
+
 const images = [
   'http://images.wikia.com/pt.starwars/images/c/c4/Yoda2.jpg',
   'http://images.wikia.com/es.starwars/images/4/45/Yoda.jpg',

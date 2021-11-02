@@ -1,3 +1,14 @@
+// Description:
+//
+//
+// Dependencies:
+//   None
+//
+// Configuration:
+//   None
+//
+// Commands:
+//
 const ackbars = [
   'http://farm4.static.flickr.com/3572/3637082894_e23313f6fb_o.jpg',
   'http://farm6.staticflickr.com/5126/5725607070_b80e61b4b3_z.jpg',

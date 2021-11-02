@@ -1,3 +1,15 @@
+// Description:
+//
+//
+// Dependencies:
+//   None
+//
+// Configuration:
+//   None
+//
+// Commands:
+//
+
 const request = require('request');
 
 module.exports = (robot) => {

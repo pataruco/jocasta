@@ -1,3 +1,15 @@
+// Description:
+//
+//
+// Dependencies:
+//   None
+//
+// Configuration:
+//   None
+//
+// Commands:
+//
+
 const caniuse = require('caniuse-api');
 
 const Caniuse = require('../helpers/caniuse.js');

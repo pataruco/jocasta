@@ -1,3 +1,15 @@
+// Description:
+//
+//
+// Dependencies:
+//   None
+//
+// Configuration:
+//   None
+//
+// Commands:
+//
+
 const quotes = [
   'Agree with you, the council does. Your apprentice, Skywalker will be.',
   'Always two there are, no more, no less: a master and an apprentice.',

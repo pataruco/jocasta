@@ -13,7 +13,8 @@ I built it as prototype for General Assembly London JavaScript 1 course first pr
 - Clone this repo
 
   ```sh
-  git clone git@github.com:pataruco/jocasta.git
+  git clone --single-branch --branch starter-code git@github.com:pataruco/jocasta.git
+
   ```
 
 - Go to `jocasta` directory in your machine
@@ -46,16 +47,33 @@ I built it as prototype for General Assembly London JavaScript 1 course first pr
 - Then you can interact with Jocasta.
 
   ```node
-  jocasta> weather [city]
-  jocasta> yoda quotes
-  jocasta> yoda pic
-  jocasta> it's a trap
+  jocasta> hi
   ...
   ```
 
 ## Running Jocasta on production
 
-You can start Jocasta on [ga-ldn-js1](https://ga-ldn-js1.slack.com/) Slack Channel by running:
+- In the `package.json` in the `start` NPM script substitute `<Slack API Token>`
+
+```json
+// ...
+ "scripts": {
+    "start": "HUBOT_SLACK_TOKEN=<Slack API Token> ./bin/hubot --adapter slack"
+  },
+// ...
+```
+
+with an actual token, e.g.
+
+```json
+// ...
+ "scripts": {
+    "start": "HUBOT_SLACK_TOKEN=xoxb-000-123-123 ./bin/hubot --adapter slack"
+  },
+// ...
+```
+
+- Then, you can start Jocasta on [ga-ldn-js.slack.com](ga-ldn-js.slack.com) Slack Channel by running:
 
 ```sh
 yarn start
@@ -66,42 +84,13 @@ yarn start
 [Jocasta Nu](http://www.starwars.com/databank/jocasta-nu), is the head librarian of the Jedi Temple, so for she knows
 about the Galaxy and Star Wars characters.
 
-### Admiral Ackbar
+### Hi
 
-Admiral Ackbar knew about the trap set it by the evil Galactic Empire
-
-```node
-it's a trap
-```
-
-### Weather
-
-To know the actual weather of all the cities in the world.
+Answer to a `hi` or `hola`
 
 ```node
-weather  <name of the city>
-```
-
-### NASA
-
-Brings the [astronomic pic](http://apod.nasa.gov/apod/astropix.html) of the day from NASA
-
-```txt
-nasa
-```
-
-### Yoda pics
-
-Bring a random Master Yoda Pic
-
-```node
-yoda pic
-```
-
-### Yoda quotes
-
-Bring a random Master Yoda quote
-
-```node
-yoda quote
+hola
+👋
+HI
+👋
 ```
